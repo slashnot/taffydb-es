@@ -1,0 +1,32 @@
+{
+  "name": "taffydb-es",
+  "version": "0.1.0",
+  "description": "TaffyDB packed as ESM Module",
+  "main": "taffy.js",
+  "exports": {
+    "import": "./taffy-es.js",
+    "node": "./taffy-es.js",
+    "require": "./taffy.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "taffy",
+    "taffydb",
+    "database",
+    "db",
+    "in",
+    "memory",
+    "query",
+    "mongo",
+    "sql",
+    "sqlite"
+  ],
+  "author": "Ramkumar K",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "taffydb": "^2.7.3"
+  }
+}
