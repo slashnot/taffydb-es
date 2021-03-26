@@ -26,6 +26,7 @@
   ],
   "author": "Ramkumar K",
   "license": "BSD-2-Clause",
+  "repository": "https://github.com/slashnot/taffydb-es.git",
   "dependencies": {
     "taffydb": "^2.7.3"
   }
