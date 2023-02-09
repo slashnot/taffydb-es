@@ -1,6 +1,6 @@
 {
   "name": "taffydb-es",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TaffyDB packed as ESM Module",
   "main": "taffy.js",
   "exports": {
