@@ -2054,3 +2054,4 @@ function createTaffy() {
 };
 
 export const Taffy = createTaffy();
+export default Taffy

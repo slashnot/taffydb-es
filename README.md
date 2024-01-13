@@ -3,9 +3,9 @@ TaffyDB packed as ESM Module
 
 ## Usage
 ```sh
-import {taffy  as  TAFFY} from  'taffydb-es'
+import Taffy from './taffy-es'
 
-const friends = TAFFY([
+const friends = Taffy([
 	{"id":1,"gender":"M","first":"John","last":"Smith","city":"Seattle, WA","status":"Active"},
 	{"id":2,"gender":"F","first":"Kelly","last":"Ruth","city":"Dallas, TX","status":"Active"},
 	{"id":3,"gender":"M","first":"Jeff","last":"Stevenson","city":"Washington, D.C.","status":"Active"},
@@ -20,8 +20,8 @@ console.log(friendsInSeattle)
 ### Register new queries
 
 ```sh
-TAFFY.registerQueries({ 'endsWith': (mvalue, mtest) => mvalue.toString().endsWith(mtest) })
-const taffy = TAFFY(data)
+Taffy.registerQueries({ 'endsWith': (mvalue, mtest) => mvalue.toString().endsWith(mtest) })
+const taffy = Taffy(data)
 
 console.log(taffy({
   first_name: {
