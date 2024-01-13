@@ -2017,5 +2017,5 @@ var TAFFY, exports, T;
 }());
 
 if ( typeof(exports) === 'object' ){
-  exports.taffy = TAFFY;
+  exports.Taffy = TAFFY;
 }

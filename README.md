@@ -17,5 +17,23 @@ const friendsInSeattle = friends({city:"Seattle, WA"}).get()
 console.log(friendsInSeattle)
 ```
 
+### Register new queries
+
+```sh
+TAFFY.registerQueries({ 'endsWith': (mvalue, mtest) => mvalue.toString().endsWith(mtest) })
+const taffy = TAFFY(data)
+
+console.log(taffy({
+  first_name: {
+    'endsWith': 'r'
+  },
+  last_name:{
+    startsWith: 'D'
+  },
+  gender: 'Male'
+}).get())
+```
+
+
 ## Documentation
 https://taffydb.com/
